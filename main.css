@@ -1,0 +1,76 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: #cccccc56;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #792099;
+  }
+  
+  button {
+    background-color: #792099;
+    color: white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    margin: 20px 0px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 195);
+  }
+  
+  .input-group input:focus {
+    outline: 0;
+  }
+  
+  .input-group .error {
+    color: rgb(242, 18, 18);
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    background-color: #792099;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
